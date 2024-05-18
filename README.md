@@ -62,9 +62,7 @@ Customize your blog to suit your needs:
 
 
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
