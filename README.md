@@ -16,13 +16,13 @@ Follow these steps to set up the Django blog application:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/django-blog.git
+   git clone https://github.com/Draglow/django-blog.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd django-blog
+   cd blog_project
    ```
 
 3. Install dependencies:
