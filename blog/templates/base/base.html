@@ -1,0 +1,56 @@
+<!doctype html>
+
+{% load static %}
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS Link -->
+    <!-- Bootstrap CSS Link -->
+    <link rel="stylesheet" href="{% static 'dist/css/vendor/bootstrap.min.css' %}">
+
+    <!-- Slick CSS Link -->
+    <link rel="stylesheet" href="{% static 'dist/css/vendor/slick.css' %}">
+    <link rel="stylesheet" href="{% static 'dist/css/vendor/slick-theme.css' %}">
+
+    <!-- Icon Library Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Theme CSS Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-cJw7NUQs5+fdBtdvNcYMw2+A/1Nj2D2OcaKgVJRpARFgKl9ieF4NNRGoYoK3k/iZn3fL86h87cKWeN/4POAzow==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="{% static 'dist/css/main.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" integrity="sha384-Z2wSSXSbByJ5eGUDfN4QbVP3wp3yvUv6jGmV4s5J1pfsKtkG2q2przjcIK3OYT6V" crossorigin="anonymous">
+
+    <title>Blogy-Home</title>
+</head>
+
+<body>
+    {% include 'footnav/navbar.html' %}
+    {% block content %}
+
+    {% endblock content %}
+
+    {% include 'footnav/footer.html' %}
+
+
+    <script src="{% static 'dist/js/jquery-3.6.0.min.js' %}"></script>
+
+    <!-- Bootstrap JS Link -->
+    <script src="{% static 'dist/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Menu JS Link -->
+    <script src="{% static 'dist/js/menu.js' %}"></script>
+
+    <!-- Slick JS Link -->
+    <script src="{% static 'dist/js/slick.min.js' %}"></script>
+
+    <!-- Custom JS Link -->
+    <script src="{% static 'dist/js/main.js' %}"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-hET86Yt9ApB3vD5l64IePk7Ih43fxyI4tMLtkfYIn0OZG74dA0R6hDgyK4fs+ga6" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-wq6F8sHUwBLq7vXaIKoOSY4FRaoz+5p7zl6vld+y0auZ6gUorQ3jQT5tUk8UKsgL" crossorigin="anonymous"></script>
+</body>
